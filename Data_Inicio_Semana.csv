@@ -1,4 +1,4 @@
-Data Inicial	Data do Início da Semana
+Data Inicial;Data do Inicio da Semana
 28/11/2021;=A2-(WEEKDAY(A2)-1)
 30/11/2021;=A3-(WEEKDAY(A3)-1)
 01/12/2021;=A4-(WEEKDAY(A4)-1)
@@ -6,4 +6,4 @@ Data Inicial	Data do Início da Semana
 06/12/2021;=A6-(WEEKDAY(A6)-1)
 12/12/2021;=A7-(WEEKDAY(A7)-1)
 13/12/2021;=A8-(WEEKDAY(A8)-1)
-Dado uma data;retorna a data em que começa aquela semana
+Dado uma data;retorna a data em que comeca aquela semana
