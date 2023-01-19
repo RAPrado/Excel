@@ -3,4 +3,4 @@ Em Porturguês
 **=Pri.Maiúscula(A1)**<p>
 
 English
-**=Pri.Maiúscula(A1)**<p>
+**=Proper(A1)**<p>
