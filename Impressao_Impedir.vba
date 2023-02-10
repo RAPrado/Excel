@@ -11,7 +11,7 @@ Private Sub Workbook_BeforePrint(Cancel As Boolean)
     Nome_Aba = "Sheet1"
     
     For Each Objeto In Application.ActiveWorkbook.Windows(1).SelectedSheets
-        If Objeto.Name = WsName Then 'Se quiser impedir a impressão para uma aba específica, do contrário retirar o if.
+        If Objeto.Name = Nome_Aba Then 'Se quiser impedir a impressão para uma aba específica, do contrário deixar apenas a linha 15 e 16.
             MsgBox ("Pedrão, achaste que podias imprimir???? Só que não...")
             Cancel = True
         End If
